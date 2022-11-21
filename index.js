@@ -1,3 +1,5 @@
+console.log('Hello')
+
 var canvasEl = document.getElementById('my_canvas');
 var ctx = canvasEl.getContext('2d');
 ctx.fillStyle = 'red';
