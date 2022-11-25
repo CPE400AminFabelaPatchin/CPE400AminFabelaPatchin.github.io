@@ -2,16 +2,20 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>GANG SHIZ</title>
+        <title>WHITEBOARD APP</title>
     </head>
     <body>
-        <canvas
-            id="myCanvas"
-            width="400"
-            height="400"
-            style="border:1px solid #000000;">
-        </canvas>
-        <script src=”https://api.mesibo.com/mesibo.js"></script>
+        <canvas id="whiteboard"></canvas>
+
+        <button onclick="onSolidRect()">
+            Add Rectangle!
+        </button>
+
+        <button onclick="removeSelected()">
+            Remove Selected!
+        </button>
+        <script type="text/javascript" src="https://api.mesibo.com/mesibo.js"></script>
+        <script src="index.js"></script>
         <script src="main.js"></script>
     </body>
 </html>
