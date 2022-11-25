@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CPE400AminFabelaPatchin/CPE400AminFabelaPatchin.git"
+    "url": "git+https://github.com/CPE400AminFabelaPatchin/CPE400AminFabelaPatchin.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CPE400AminFabelaPatchin/CPE400AminFabelaPatchin/issues"
+    "url": "https://github.com/CPE400AminFabelaPatchin/CPE400AminFabelaPatchin.github.io/issues"
   },
-  "homepage": "https://github.com/CPE400AminFabelaPatchin/CPE400AminFabelaPatchin#readme",
+  "homepage": "https://github.com/CPE400AminFabelaPatchin/CPE400AminFabelaPatchin.github.io/blob/main/README.md",
   "devDependencies": {
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.0"
