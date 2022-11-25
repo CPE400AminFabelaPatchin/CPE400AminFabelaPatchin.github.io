@@ -1,7 +1,4 @@
 let canvas = new fabric.Canvas('whiteboard');
-console.log('Hello!')
-let test = prompt('DOES THIS THING WORK', 'GANG SHIT')
-console.log('Made it through!')
 var onSolidRect = function() {
   var rect = new fabric.Rect({
     top: 100,
