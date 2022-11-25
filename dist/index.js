@@ -1,4 +1,4 @@
-import {fabric} from 'fabric'
+import {fabric} from 'fabric';
 
 let canvas = new fabric.Canvas('whiteboard');
 
