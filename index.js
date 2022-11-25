@@ -40,7 +40,7 @@ console.log(user_index)
 const MESIBO_APP_ID = 'iizqy4tzifhqggi9pj7ium6hdx3mw1q5lh87cjun4k1gik025a9p3n0azzr6j9cn';
 const MESIBO_ACCESS_TOKEN = selected_user.token;
 const MESIBO_USER_UID = selected_user.uid; 
-const MESIBO_GROUP_ID = 0; //Create a group and add members(demo_users). Set group id. 
+const MESIBO_GROUP_ID = 2612883; //Create a group and add members(demo_users). Set group id. 
 const TYPE_CANVAS_MESSAGE = 7;
 
 
