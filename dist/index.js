@@ -1,4 +1,4 @@
-const fabric = require('fabric') 
+import {fabric} from 'fabric'
 
 let canvas = new fabric.Canvas('whiteboard');
 
@@ -15,15 +15,12 @@ var onSolidRect = function() {
   });
   canvas.add(rect);
 };
-window.onSolidRect = onSolidRect;
-
 var removeSelected = function() {
   let object = canvas.getActiveObject();
   if(object) {
     canvas.remove(object);
   };
 };
-window.removeSelected = removeSelected;
 
 let demo_users = [
   {
