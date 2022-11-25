@@ -35,6 +35,7 @@ let demo_users = [
 
 let user_index = prompt('Select user: 0, 1, 2', 0);
 let selected_user = demo_users[user_index];
+console.log(user_index)
 
 const MESIBO_APP_ID = 'iizqy4tzifhqggi9pj7ium6hdx3mw1q5lh87cjun4k1gik025a9p3n0azzr6j9cn';
 const MESIBO_ACCESS_TOKEN = selected_user.token;
