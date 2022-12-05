@@ -1,24 +1,30 @@
+<!-- Basic HTML document -->
 <!DOCTYPE html>
 <html>
-
+<!-- Head of HTML document -->
 <head>
+    <!-- Setting the character set to utf-8 -->
     <meta charset="utf-8">
+    <!-- Setting the viewport to be the width of the device that is being used -->
     <meta name="viewport" content="width=device-width">
+    <!-- Setting the title of the webpage to 'Whiteboard' -->
     <title>Whiteboard</title>
 </head>
+<!-- Pulling the P5 library for canvas functions like drawing, erasing, etc. -->
 <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+<!-- Pulling the Mesbio library/API so that we can send messages between users -->
 <script type="text/javascript" src="https://api.mesibo.com/mesibo.js" crossorigin="anonymous"></script>
+<!-- Pulling our javascript code -->
 <script src="script.js"></script>
-
+<!-- Body of the HTML document -->
 <body>
-
+    <!-- When the draw button is clicked, set erasing to false so that the user can draw -->
     <button onclick="erasing = false">
         Draw
     </button>
+    <!-- When the erase button is clicked, set erasing to true so that the user can erase -->
     <button onclick="erasing = true">
         Erase
     </button>
-
 </body>
-
 </html>
