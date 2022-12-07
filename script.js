@@ -23,7 +23,7 @@ var temp_points = []
 var erasing = false;
 // current dragging state, 
 // dragging is true when mouse is clicked and moved together
-var dragging = false;
+//var dragging = false;
 
 // init application function, called by p5js
 function setup() {
