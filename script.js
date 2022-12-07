@@ -19,7 +19,7 @@ var points = []
 // mouse stroke is complete these points will be moved to points array.
 var temp_points = []
 
-// current easing state
+// current erasing state
 var erasing = false;
 // current dragging state, 
 // dragging is true when mouse is clicked and moved together
@@ -74,15 +74,15 @@ function draw() {
 // function is called by p5js, while mouse is dragged.
 function mouseDragged() {
     // set dragging to true
-    dragging = true;
-    // add current poiunt to temp_points array.
+    //dragging = true;
+    // add current points to temp_points array.
     temp_points.push([mouseX, mouseY]);
 }
 
 // called by p5js when mouse is released 
 function mouseReleased() {
     // set dragging to false, since the  mouse is released
-    dragging = false;
+    //dragging = false;
     // create object with temp_points and current erasing status
     let obj = { points: [...temp_points], erasing }
     // send this object to mesibo, and mesibo will send this object to other clients.
