@@ -27,7 +27,7 @@ var dragging = false;
 
 // init application function, called by p5js
 function setup() {
-    createCanvas(500, 500);
+    createCanvas(window.innerWidth, window.innerHeight);
 }
 
 // draw loop function called by p5js in every frame
