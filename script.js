@@ -32,6 +32,7 @@ function setup() {
 
 function clearAll() {
     points = []
+    temp_points = []
     mouseReleased();
 
 }
