@@ -14,6 +14,8 @@
 </head>
 <!-- Pulling the P5 library for canvas functions like drawing, erasing, etc. -->
 <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+<!-- Pulling the P5 library for button functions like clearAll etc. -->
+<script src="libraries/p5.dom.js"></script>
 <!-- Pulling the Mesibo library/API so that we can send messages between users -->
 <script type="text/javascript" src="https://api.mesibo.com/mesibo.js" crossorigin="anonymous"></script>
 <!-- Pulling our javascript code -->
@@ -29,6 +31,10 @@
     <!-- When the erase button is clicked, set erasing to true so that the user can erase -->
     <button class = "button1" onclick="erasing = true">
         Erase
+    </button>
+    <!-- When the erase all button is clicked, clear the entire screen-->
+    <button class = "button1" onclick= "clearAll()">
+        Clear All
     </button>
 </body>
 </html>

@@ -30,6 +30,12 @@ function setup() {
     createCanvas(window.innerWidth, window.innerHeight);
 }
 
+function clearAll() {
+    points = []
+    mouseReleased();
+
+}
+
 // draw loop function called by p5js in every frame
 function draw() {
     // clear the canvas
@@ -47,8 +53,8 @@ function draw() {
             }
         }
         else { // if points were added while draw mode
-            stroke(0) // set fill and stroke color to black
-            fill(0)
+            stroke((uIndex=='1') ? 'black': 'blue') // set fill and stroke color to black
+            fill((uIndex=='1') ? 'black': 'blue')
             for (let p of pinfo.points) { // render each point with black color set above
                 point(p[0], p[1])
             }
@@ -64,13 +70,15 @@ function draw() {
         }
     }
     else {
-        stroke(0)
-        fill(0)
+        stroke('black');
+        fill('black');
         for (let p of temp_points) {
             point(p[0], p[1])
         }
+        console.log(uIndex);
     }
 }
+
 // function is called by p5js, while mouse is dragged.
 function mouseDragged() {
     // set dragging to true
@@ -93,6 +101,9 @@ function mouseReleased() {
     temp_points = []
 
 }
+
+// called by p5js when clear all button is clicked
+
 
 //Create mesibo users and obtain credentials at mesibo.com/console
 var demo_users = [
@@ -138,7 +149,7 @@ api.start();
 // done mesibo initialization
 
 
-// funcrtion to send message to mesibo
+// function to send message to mesibo
 function sendObjectToGroup(pObject) {
     // setup boilerplate for mesibo requirments
     var m = {};
