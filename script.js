@@ -76,7 +76,6 @@ function draw() {
         for (let p of temp_points) {
             point(p[0], p[1])
         }
-        console.log(uIndex);
     }
 }
 
