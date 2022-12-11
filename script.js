@@ -129,19 +129,19 @@ var demo_users = [
 ]
 
 //var uIndex = prompt('Select user: 0, 1', 0);
-/*let counter = 0;
+let counter = 0;
 do{
     if(counter == 0){
-        var selection = parseInt(window.prompt("Please enter a user, 0, 1, 2, 3", ""), 0);
+        var selection = parseInt(window.prompt('Please enter a user, 0, 1, 2, 3'), 0);
     }else{
-        var selection = parseInt(window.prompt("Only 0, 1, 2, 3 are allowed, please enter:", ""), 0);
+        var selection = parseInt(window.prompt('Only 0, 1, 2, 3 are allowed, please enter:'), 0);
     }
     counter++;
     //var selection = parseInt(window.prompt("Please enter a user, 0 or 1", ""), 0);
-}while(isNaN(selection) || selection > 1 || selection < 0 );*/
+}while(isNaN(selection) || selection > 1 || selection < 0 );
 
-//var uIndex = selection
-var uIndex = prompt('Select user: 0, 1, 2, 3,', 0);
+var uIndex = selection
+//var uIndex = prompt('Select user: 0, 1, 2, 3,', 0);
 var selected_user = demo_users[uIndex];
 
 //Initialize mesibo
