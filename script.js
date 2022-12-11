@@ -28,7 +28,7 @@ var erasing = false;
 // init application function, called by p5js
 function setup() {
     createCanvas(window.innerWidth, window.innerHeight);
-    bg = loadImage('canvasGrid.jpg', 255);
+    bg = loadImage('canvasGrid2.jpg', 255);
 }
 
 function clearAll() {

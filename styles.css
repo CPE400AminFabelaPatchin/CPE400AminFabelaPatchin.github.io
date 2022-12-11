@@ -21,7 +21,7 @@ html, body {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    display: inline-block;
+    display: inline;
 }
 
 .button1:hover{
@@ -54,8 +54,7 @@ html, body {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    display: inline-block;
-    
+    display: inline;
 }
 
 .button2:hover{
@@ -88,8 +87,7 @@ html, body {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    display: inline-block;
-
+    display: inline;
 }
 
 .button3:hover{
@@ -101,6 +99,11 @@ html, body {
   .button3 {
     padding: 0 2.6rem;
   }
+}
+
+.buttonPos{
+    margin-left: 68.5%;
+    display: inline
 }
 
 h1{
