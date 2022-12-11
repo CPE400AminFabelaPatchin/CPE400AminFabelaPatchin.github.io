@@ -112,16 +112,18 @@ var demo_users = [
         , 'uid': 5376428
     },
 
-     {
+    {
         'token': 'c5da9863ceb83051bc7235113bd1fbaf464c9e02a65b223c8e8845b1b8jaf3160cbdfd'
         , 'uid': 5376429
     },
     
-    {   'token': 'e4e880d19bdfd64ef01996bb05c1b3d356f9aa9996f655c4fffbe7745b1b9ua8544abd8d7'
+    {   
+       'token': 'e4e880d19bdfd64ef01996bb05c1b3d356f9aa9996f655c4fffbe7745b1b9ua8544abd8d7'
         , 'uid': 5376430
     },
         
-    {   'token': '4af6af43aa4af53cab3cec188ffbc7cb065e09955b43c752eceee45b1bbxa6006d58cf0'
+    {   
+       'token': '4af6af43aa4af53cab3cec188ffbc7cb065e09955b43c752eceee45b1bbxa6006d58cf0'
         , 'uid': 5376431
     },
 ]
