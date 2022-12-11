@@ -12,7 +12,7 @@
     erasing will be false for points drawn,
     and erasing will be true for points erased
 */
-
+let bg;
 var points = []
 
 // points to store current mouse stoke. when 
@@ -28,6 +28,7 @@ var erasing = false;
 // init application function, called by p5js
 function setup() {
     createCanvas(window.innerWidth, window.innerHeight);
+    bg = loadImage('canvasGrid.jpg', 255);
 }
 
 function clearAll() {
@@ -40,7 +41,7 @@ function clearAll() {
 // draw loop function called by p5js in every frame
 function draw() {
     // clear the canvas
-    background(200)
+    background(bg);
     // setup stroke size
     strokeWeight(10);
 
