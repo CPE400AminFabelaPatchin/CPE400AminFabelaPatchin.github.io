@@ -141,7 +141,7 @@ do{
     if(counter == 0){
         var selection = parseInt(window.prompt('Please enter a user, 0, 1, 2, 3'), 0);
     }else{
-        var selection = parseInt(window.prompt('Only 0, 1, 2, 3 are allowed, please enter:'), 0);
+        var selection = parseInt(window.prompt('Only 0, 1, 2, 3 are allowed, please enter a valid user:'), 0);
     }
     counter++;
     //var selection = parseInt(window.prompt("Please enter a user, 0 or 1", ""), 0);
