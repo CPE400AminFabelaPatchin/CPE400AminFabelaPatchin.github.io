@@ -48,8 +48,8 @@ function draw() {
     // render already drawn or erased points
     for (let pinfo of points) {
         if (pinfo.erasing) { // if points were added while erase mode
-            stroke(200) // set fill color and stroke color same as background
-            fill(200)
+            stroke('white') // set fill color and stroke color same as background
+            fill('white')
             for (let p of pinfo.points) { // render each point with fill and stroke color set above.
                 point(p[0], p[1])
             }
@@ -65,15 +65,15 @@ function draw() {
 
     // now render the points in temp_points array with color based on their erasing status.
     if (erasing) {
-        stroke(200)
-        fill(200)
+        stroke('white')
+        fill('white')
         for (let p of temp_points) {
             point(p[0], p[1])
         }
     }
     else {
-        stroke('black');
-        fill('black');
+        stroke((uIndex > 2) ? 'black': 'blue') // set stroke color to blue or black based on the userIndex
+        fill((uIndex > 2) ? 'black': 'blue')
         for (let p of temp_points) {
             point(p[0], p[1])
         }
