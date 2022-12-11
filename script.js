@@ -145,7 +145,7 @@ do{
     }
     counter++;
     //var selection = parseInt(window.prompt("Please enter a user, 0 or 1", ""), 0);
-}while(isNaN(selection) || selection > 1 || selection < 0 );
+}while(isNaN(selection) || selection > 3 || selection < 0);
 
 var uIndex = selection;
 //var uIndex = prompt('Select user: 0, 1, 2, 3,', 0);
