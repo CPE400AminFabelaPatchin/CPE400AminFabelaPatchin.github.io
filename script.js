@@ -54,8 +54,8 @@ function draw() {
             }
         }
         else { // if points were added while draw mode
-            stroke((uIndex > 1) ? 'black': 'blue') // set fill and stroke color to black
-            fill((uIndex > 1) ? 'black': 'blue')
+            stroke((uIndex > 2) ? 'black': 'blue') // set stroke color to blue or black based on the userIndex
+            fill((uIndex > 2) ? 'black': 'blue') // set fill color to blue or black based on the userIndex
             for (let p of pinfo.points) { // render each point with black color set above
                 point(p[0], p[1])
             }
@@ -128,20 +128,17 @@ var demo_users = [
     },
 ]
 
-//var uIndex = prompt('Select user: 0, 1', 0);
 let counter = 0;
 do{
     if(counter == 0){
-        var selection = parseInt(window.prompt('Please enter a user, 0, 1, 2, 3'), 0);
+        var selection = parseInt(window.prompt('Please enter a user, 1, 2, 3, 4'), 0);
     }else{
-        var selection = parseInt(window.prompt('Only 0, 1, 2, 3 are allowed, please enter a valid user:'), 0);
+        var selection = parseInt(window.prompt('Only 1, 2, 3, 4 are allowed, please enter a valid user:'), 0);
     }
     counter++;
-    //var selection = parseInt(window.prompt("Please enter a user, 0 or 1", ""), 0);
-}while(isNaN(selection) || selection > 3 || selection < 0);
+}while(isNaN(selection) || selection > 4 || selection < 1);
 
 var uIndex = selection;
-//var uIndex = prompt('Select user: 0, 1, 2, 3,', 0);
 var selected_user = demo_users[uIndex];
 
 //Initialize mesibo
