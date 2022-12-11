@@ -53,13 +53,13 @@ function draw() {
                 point(p[0], p[1])
             }
         }
-        /*else { // if points were added while draw mode
-            stroke((uIndex=='1') ? 'black': 'blue') // set fill and stroke color to black
-            fill((uIndex=='1') ? 'black': 'blue')
+        else { // if points were added while draw mode
+            stroke((uIndex > 1) ? 'black': 'blue') // set fill and stroke color to black
+            fill((uIndex > 1) ? 'black': 'blue')
             for (let p of pinfo.points) { // render each point with black color set above
                 point(p[0], p[1])
             }
-        }*/
+        }
         else { // if points were added while draw mode
             stroke(0) // set fill and stroke color to black
             fill(0)
