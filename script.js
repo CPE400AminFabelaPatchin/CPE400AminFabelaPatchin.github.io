@@ -60,13 +60,6 @@ function draw() {
                 point(p[0], p[1])
             }
         }
-        else { // if points were added while draw mode
-            stroke(0) // set fill and stroke color to black
-            fill(0)
-            for (let p of pinfo.points) { // render each point with black color set above
-                point(p[0], p[1])
-            }
-        }
     }
 
     // now render the points in temp_points array with color based on their erasing status.
