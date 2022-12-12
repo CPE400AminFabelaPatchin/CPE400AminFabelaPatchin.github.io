@@ -7,7 +7,10 @@ This is an online Whiteboard Application that allows users to collaborate with e
 This whiteboard is entirely web-based and was developed in HTML/CSS, JavaScript, P5.js (a JavaScript Library), and Mesibo API. It utilizes TCP and IP protocols from a networking perspective to establish a connection.
 ## Diagrams
 ![figure 4](https://user-images.githubusercontent.com/31677691/206963706-cdda23a1-2fc7-43cc-bbea-2033dab909ee.jpg)
+  
 Updated whiteboard state
+
 ![figure7](https://user-images.githubusercontent.com/31677691/206963708-9aafcfa2-4313-4a32-80cd-4fc7ef07a222.jpg)
+
 Multicasting environment
 
