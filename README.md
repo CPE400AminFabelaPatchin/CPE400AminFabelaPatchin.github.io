@@ -1,6 +1,6 @@
 # whiteboard-app
 CPE400 Project<br>
-Created by Roohan Amin, Edward Fabela, Brock Patchin
+Created by Roohan Amin
 ## Overview
 This is an online Whiteboard Application that allows users to collaborate with each other. Concepts and computations can be explained in a convenient manner simply by accessing this website. A grid canvas is provided for any graphing that may be needed. It was made as a project for a Computer Communcation Networks class.
 ## Code
